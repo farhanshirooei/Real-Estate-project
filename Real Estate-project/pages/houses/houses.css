@@ -1,0 +1,60 @@
+main {
+    padding-top: 100px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background: url('../../images/pexels-photomix-company-101808.jpg') center/cover no-repeat;
+    position: fixed;
+    z-index: -1;
+}
+
+.house {
+    width: 60%;
+    margin: 16px auto;
+    border: 2px solid black;
+    text-align: right;
+    border-radius: 30px;
+    background: #1b1919;
+    z-index: 1;
+    position: relative;
+}
+
+#img {
+    width: 100%;
+    height: 20%;
+    float: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* .clearfix {
+    clear: both;
+} */
+
+.house a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 32px;
+}
+
+.plan__info {
+    padding: 16px;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #ffb900;
+    color: #1b1919;
+}
+
+.plan__badge {
+    position: absolute;
+    font-size: 15px;
+    color: #1b1919;
+    background: #ffb900;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-top: -50px;
+}

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url('../fonts/Vazirmatn-Medium.woff2');
+}
+
+body {
+    font-family: 'Vazir';
+    margin: 0;
+}
+
+.main-header {
+    width: 100%;
+    background: #1b1919;
+    padding: 8px 16px;
+    z-index: 2;
+    position: fixed;
+}
+
+.main-header__logo-img{
+    width: 2rem;
+    margin: 0;
+    border: 0;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 50px);
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.4s;
+}
+
+#main-nav__item--account a {
+    background: #ffb900;
+    color: #1b1919;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#main-nav__item--account a:hover {
+    color: #ffffff;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: #ffb900;
+}
+
+.main-footer {
+    background: #424949;
+    padding: 20px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover {
+    color: #ffb900;
+}

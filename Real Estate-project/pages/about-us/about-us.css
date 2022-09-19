@@ -1,0 +1,49 @@
+main {
+    padding: 50px;
+}
+
+.experts {
+    margin: 48px;
+    font-size: 20px;
+}
+
+.experts:first-of-type {
+    margin-top: 50px;
+}
+
+.experts_image-container {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.expert-image {
+    width: 100%;
+    vertical-align: top;
+}
+
+.expert-info {
+    text-align: right;
+    padding: 14px;
+    display: inline-block;
+    width: 30%;
+}
+
+.expert-name {
+    color: #ffb900;
+    background-color: #1b1919;
+    border: 3px solid none;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.expert-degree {
+    color: #ffffff;
+    background: #1b1919;
+    padding: 3px 10px;
+    border: 3px solid none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
